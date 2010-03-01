@@ -4,6 +4,7 @@ lib/Test/Suite/Grouping.pm
 lib/Test/Suite/Grouping/Base.pm
 lib/Test/Suite/Grouping/Case.pm
 lib/Test/Suite/Grouping/Set.pm
+lib/Test/Suite/Manual.pm
 lib/Test/Suite/Plugin.pm
 lib/Test/Suite/Plugin/Exception.pm
 lib/Test/Suite/Plugin/More.pm
@@ -24,6 +25,7 @@ t/Plugin-More.t
 t/Plugin-Simple.t
 t/Plugin-Warn.t
 t/Plugin.t
+t/pod.t
 t/Suite-Acceptance-1.t
 t/Suite.t
 t/TestBase.t

@@ -28,6 +28,9 @@ provides:
     file: lib/Test/Suite/Grouping/Case.pm
   Test::Suite::Grouping::Set:
     file: lib/Test/Suite/Grouping/Set.pm
+  Test::Suite::Manual:
+    file: lib/Test/Suite/Manual.pm
+    version: 0.002
   Test::Suite::Plugin:
     file: lib/Test/Suite/Plugin.pm
   Test::Suite::Plugin::Exception:
@@ -62,4 +65,4 @@ requires:
   autodie: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.001
+version: 0.002
