@@ -14,9 +14,11 @@ meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Test-Suite
-no_ndex:
+no_index:
   file:
     - lib/Test/Suite/TestBuilderImposter.pm
+  package:
+    - Test::Builder
 provides:
   Test::Builder:
     file: lib/Test/Suite/TestBuilderImposter.pm
@@ -33,7 +35,7 @@ provides:
     file: lib/Test/Suite/Grouping/Set.pm
   Test::Suite::Manual:
     file: lib/Test/Suite/Manual.pm
-    version: 0.003
+    version: 0.004
   Test::Suite::Plugin:
     file: lib/Test/Suite/Plugin.pm
   Test::Suite::Plugin::Exception:
@@ -70,4 +72,4 @@ resources:
   bugtracker: http://github.com/exodist/Test-Suite/issues
   license: http://dev.perl.org/licenses/
   repository: http://github.com/exodist/Test-Suite
-version: 0.003
+version: 0.004
