@@ -15,8 +15,8 @@ meta-spec:
   version: 1.4
 name: Test-Suite
 no_index:
-  file:
-    - lib/Test/Suite/TestBuilderImposter.pm
+  namespace:
+    - Test::Builder
   package:
     - Test::Builder
 provides:
@@ -24,7 +24,6 @@ provides:
     file: lib/Test/Suite/TestBuilderImposter.pm
   Test::Suite:
     file: lib/Test/Suite.pm
-    version: 0.001
   Test::Suite::Grouping:
     file: lib/Test/Suite/Grouping.pm
   Test::Suite::Grouping::Base:
@@ -35,7 +34,7 @@ provides:
     file: lib/Test/Suite/Grouping/Set.pm
   Test::Suite::Manual:
     file: lib/Test/Suite/Manual.pm
-    version: 0.004
+    version: 0.005
   Test::Suite::Plugin:
     file: lib/Test/Suite/Plugin.pm
   Test::Suite::Plugin::Exception:
@@ -72,4 +71,4 @@ resources:
   bugtracker: http://github.com/exodist/Test-Suite/issues
   license: http://dev.perl.org/licenses/
   repository: http://github.com/exodist/Test-Suite
-version: 0.004
+version: 0.005
