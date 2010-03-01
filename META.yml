@@ -1,0 +1,65 @@
+---
+abstract: 'A more modern testing framework for perl'
+author:
+  - 'Chad Granum <exodist7@gmail.com>'
+build_requires:
+  Object::Quick: 0.012
+  Test::Builder::Tester: 0
+  Test::Exception::LessClever: 0.001
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3603'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Test-Suite
+provides:
+  Test::Builder:
+    file: lib/Test/Suite/TestBuilderImposter.pm
+  Test::Suite:
+    file: lib/Test/Suite.pm
+    version: 0.001
+  Test::Suite::Grouping:
+    file: lib/Test/Suite/Grouping.pm
+  Test::Suite::Grouping::Base:
+    file: lib/Test/Suite/Grouping/Base.pm
+  Test::Suite::Grouping::Case:
+    file: lib/Test/Suite/Grouping/Case.pm
+  Test::Suite::Grouping::Set:
+    file: lib/Test/Suite/Grouping/Set.pm
+  Test::Suite::Plugin:
+    file: lib/Test/Suite/Plugin.pm
+  Test::Suite::Plugin::Exception:
+    file: lib/Test/Suite/Plugin/Exception.pm
+  Test::Suite::Plugin::More:
+    file: lib/Test/Suite/Plugin/More.pm
+  Test::Suite::Plugin::Simple:
+    file: lib/Test/Suite/Plugin/Simple.pm
+  Test::Suite::Plugin::Warn:
+    file: lib/Test/Suite/Plugin/Warn.pm
+  Test::Suite::Specification:
+    file: lib/Test/Suite/Specification.pm
+  Test::Suite::TestBase:
+    file: lib/Test/Suite/TestBase.pm
+  Test::Suite::TestBuilderImposter:
+    file: lib/Test/Suite/TestBuilderImposter.pm
+  Test::Suite::TestHelper:
+    file: lib/Test/Suite/TestHelper.pm
+  Test::Suite::Tester:
+    file: lib/Test/Suite/Tester.pm
+requires:
+  File::Find: 0
+  File::Temp: 0.2
+  IO: 1.2301
+  List::Util: 0
+  Scalar::Util: 0
+  Sub::Uplevel: 0.2
+  Test::Simple: 0.88
+  Test::Warn: 0
+  Time::HiRes: 0
+  Try::Tiny: 0
+  autodie: 0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.001

@@ -1,0 +1,29 @@
+NAME
+    Test::Suite - A more modern testing framework for perl
+
+DESCRIPTION
+    Test-Suite is a test framework that addresses several complains I have
+    heard, or have myself issued forth about perl testing. It is still based
+    off Test::Builder and uses a lot of existing test tools.
+
+    Please see Test::Suite::Specification for more details.
+
+EARLY VERSION WARNING
+    This is VERY early version. Test::Suite does not run yet.
+
+    Please go to <http://github.com/exodist/Test-Suite> to see the latest
+    and greatest.
+
+AUTHORS
+    Chad Granum exodist7@gmail.com
+
+COPYRIGHT
+    Copyright (C) 2010 Chad Granum
+
+    Test-Suite is free software; Standard perl licence.
+
+    Test-Suite is distributed in the hope that it will be useful, but
+    WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the license for
+    more details.
+
